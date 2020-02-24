@@ -39,5 +39,19 @@ namespace Test1.Tests
             Algebra al = new Algebra();
             Assert.Equal(0, al.Sub(1, 1));
         }
+
+        [Fact()]
+        public void MultiTest1()
+        {
+            Algebra al = new Algebra();
+            Assert.Equal(1, al.Multi(1, 1));
+        }
+
+        [Fact()]
+        public void DivideTest1()
+        {
+            Algebra al = new Algebra();
+            Assert.Equal(1, al.Divide(1, 1));
+        }
     }
 }
