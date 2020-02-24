@@ -37,7 +37,7 @@ namespace Test1.Tests
         public void SubTest1()
         {
             Algebra al = new Algebra();
-            Assert.Equal(2, al.Sub(1, 1));
+            Assert.Equal(0, al.Sub(1, 1));
         }
     }
 }
