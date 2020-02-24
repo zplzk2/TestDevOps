@@ -32,5 +32,12 @@ namespace Test1.Tests
             Algebra al = new Algebra();
             Assert.Equal(Math.Pow(2, 32) - 2, al.Add(int.MaxValue, int.MaxValue));
         }
+
+        [Fact()]
+        public void SubTest1()
+        {
+            Algebra al = new Algebra();
+            Assert.Equal(2, al.Sub(1, 1));
+        }
     }
 }
